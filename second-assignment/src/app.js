@@ -18,7 +18,6 @@ app.post("/", (req, res) => {
     res.status(400).send(error.message);
   }
 });
-
 app.listen(3000, () => {
   console.log("Server is running on port http://localhost:3000");
 });
